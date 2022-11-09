@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Colors</title>
-  </head>
-  <body>
-    <!-- Default colors -->
-    <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Colors</title>
+	</head>
+	<body>
+		<!-- Default colors -->
+		<!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Text Colors -->
+		<!-- Text Colors -->
+		<div class="text-white">Tailwind is Awesome</div>
+		<div class="text-black">Tailwind is Awesome</div>
+		<div class="text-green-500">Tailwind is Awesome</div>
+		<div class="text-emreld-400">Tailwind is Awesome</div>
 
-    <!-- Background Colors -->
+		<!-- Background Colors -->
+		<div class="bg-green-700">Tailwind CSS Background</div>
+		<div class="bg-white text-black">Tailwind CSS Background</div>
+		<div class="bg-black text-white">Hello Tailwind</div>
 
-    <!-- Text Underline -->
+		<!-- Text Underline -->
+		<div class="underline decoration-wavy decoration-green-400">Tailwind CSS</div>
+		<div class="underline decoration-dotted decoration-zinc-400">Tailwind CSS</div>
 
-    <!-- Border Colors -->
+		<!-- Border Colors -->
+		<button class="border border-orange-700">Button</button>
+		<button class="border border-blue-900">Button</button>
 
-    <!-- Divide Colors -->
+		<!-- Divide Colors -->
+		<div class="divide-y divide-blue-700">
+			<div>Item 1</div>
+			<div>Item 2</div>
+			<div>Item 3</div>
+			<div>Item 4</div>
+			<div>Item 5</div>
+		</div>
 
-    <!-- Outline Colors -->
+		<!-- Outline Colors -->
+		<button class="outline outline-blue-400">Button</button>
+		<button class="outline outline-black">Black</button>
 
-    <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+		<!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+		<button class="shadow-xl bg-gray-500 shadow-purple-500">Subscribe</button>
+		<button class="shadow-xl bg-gray-500 shadow-red-500/50">Subscribe</button>
 
-    <!-- Accent Colors -->
+		<!-- Accent Colors -->
+		<input type="checkbox" checked class="accent-purple-400" />
+		<input type="checkbox" checked class="accent-green-400" />
 
-    <!-- Arbitrary Colors -->
-  </body>
+		<!-- Arbitrary Colors -->
+		<div class="bg-[#424fbb]">Hello</div>
+		<div class="bg-[steelblue]">Hello</div>
+		<div class="bg-[rgb(255,20,36,2)]">Hello</div>
+	</body>
 </html>
